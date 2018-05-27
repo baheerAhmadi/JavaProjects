@@ -5,5 +5,9 @@ public class Collections {
 		System.out.println("Hello GIT");
 	}
 	
-	public static void method1(){}
+	public static void method1(){
+		System.out.println("Collections");
+	}
+	
+	
 }
