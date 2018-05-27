@@ -7,5 +7,9 @@ public class Collections {
 	
 	public static void method1(){
 		//comment
+		System.out.println("Collections");
 	}
+	
+	
+
 }
