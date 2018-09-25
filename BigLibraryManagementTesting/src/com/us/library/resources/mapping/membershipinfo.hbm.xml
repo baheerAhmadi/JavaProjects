@@ -1,0 +1,22 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+    <hibernate-mapping>
+    	<class name="com.us.library.model.MembershipInfo">  
+          <id name="membership_id">   
+           <generator class="assigned"></generator>    
+ 		</id>
+  		  	<property name="membertype"/>
+    		
+    		<property name="membershipdate"/>
+    		<property name="feesDue"/>
+    		<property name="feesPaid"/>
+    		<property name="membershipTerm"/>
+    		<property name="isActive"/>
+    		<property name="updatedby"/>
+    		<property name="updatedon"/>
+    		<!-- <one-to-one name="user" class="com.us.library.model.User"/> -->
+   
+       		</class>
+    </hibernate-mapping>

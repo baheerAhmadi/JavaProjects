@@ -1,0 +1,25 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+    <hibernate-mapping>
+    	<class name="com.us.library.model.UserInfo" table="libraryuserinfo">  
+          <id name="user_info_id">   
+              <generator class="assigned"></generator>    
+ 		</id>
+    			
+    		<property name="user_type_id"/>
+    		<property name="address_id"/>
+    		<property name="name"/>
+   			<property name="idproof"/>
+			<property name="dob"/>
+			<property name="emailid"/>
+			<property name="isActive"/>	
+			<property name="updatedby"/>
+			<property name="updatedon"/>
+
+    		<!-- <one-to-one name="user" class="com.us.library.model.User"/> -->
+    		<many-to-one name="address" class="com.us.library.model.Address"/>
+    		<many-to-one name="usertype" class="com.us.library.model.UserType"/>
+    		</class>
+    </hibernate-mapping>

@@ -1,0 +1,22 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+    <hibernate-mapping>
+    	<class name="com.us.library.model.Address" table="libraryuseraddress">  
+          <id name="address_id">   
+     <generator class="assigned"></generator>  
+    </id>  
+    	
+    		<property name="line1"/>
+    		<property name="line2"/>
+    		<property name="City"/>
+    		<property name="state"/>
+    		<property name="zipcode"/>
+    		<property name="country"/>
+    		<property name="isActive"/>
+    		<property name="updatedby"/>
+    		<property name="updatedon"/>
+    
+       		</class>
+    </hibernate-mapping>

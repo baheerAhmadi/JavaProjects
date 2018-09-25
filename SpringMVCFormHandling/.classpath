@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/HibernateWithLog4j"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/RestRS"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SpringAop"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SpringCore"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Springibatis"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SpringJ2ee"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SpringPersistanceCore"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SpringWeb"/>
+	<classpathentry kind="lib" path="F:/Softwares/Hibernate/jars/jsp-api.jar"/>
+	<classpathentry kind="lib" path="F:/Softwares/Hibernate/jars/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="F:/Softwares/Springs/jars/springjars/springjars/mvc/spring-webmvc-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/Softwares/Springs/jars/springjars/springjars/mvc/spring-web-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

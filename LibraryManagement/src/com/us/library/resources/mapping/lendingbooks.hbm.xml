@@ -1,0 +1,25 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+    <hibernate-mapping>
+    	<class name="com.us.library.model.LendingBooks">  
+          <id name="book_lending_id">  
+          <generator class="assigned">  <!-- 
+          <param name="property">books</param>  
+          <param name="property">membershipinfo</param>  
+           --></generator>   
+        </id>  
+    		<property name="book_id"/>
+    		<property name="membership_id"/>
+   			<property name="book_issue_date"/>
+			<property name="expected_submission_date"/>
+			<property name="actual_submission_date"/>
+			<property name="is_submitted"/>
+			<property name="isActive"/>
+			<property name="updatedby"/>
+			<property name="updatedon"/>
+    		<many-to-one name="membershipinfo"  unique="true"  class="com.us.library.model.MembershipInfo"/>
+    		<many-to-one name="books"  unique="true"  class="com.us.library.model.Books"/>
+       		</class>
+    </hibernate-mapping>
