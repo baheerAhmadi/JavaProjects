@@ -6,7 +6,7 @@ public class Collections {
 	}
 	
 	public static void method1(){
-		System.out.println("Collections");
+		System.out.println("Java Collections");
 	}
 	
 	
