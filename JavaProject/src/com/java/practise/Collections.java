@@ -7,6 +7,7 @@ public class Collections {
 	//method1 prints output in console
 	public static void method1(){
 		System.out.println("Java Collections");
+		System.out.println("Welcome");
 	}
 	
 	
